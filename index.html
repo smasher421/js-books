@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+</head>
+<body>
+    <!-- <div class="container">
+        <div class="header">
+            <div class="title">Book Library</div>
+            <div class="form-container">
+                <form action="#">
+                    <label for="search">
+                        <img src="" alt="search-icon" class = "icon">
+                    </label>
+                    <input type="search" id="search" placeholder="Search Library">
+                </form>
+            </div>
+            <button type="button" class = "new-entry">
+                <span class = "plus"> + </span> New Book
+            </button>
+        </div>
+
+    <div class="library-body"></div>
+
+    </div>
+
+    <dialog> 
+        <form action="#">
+            <section>
+                <label for="title">Title</label>
+                <input type="text" 
+                id = "title" 
+                name = "title" 
+                placeholder = "brave new world">
+            </section>
+        
+            <section>
+                <label for="author">Author </label>
+                <input type="text" 
+                id = "author" 
+                name = "author" 
+                placeholder = "Jules Verne">
+            </section>
+
+            <section>
+                <label for="pages">No. Of Pages </label>
+                <input type="text" 
+                id = "pages" 
+                name = "pages" 
+                placeholder = "500">
+            </section>
+
+            <section>
+                <label for="checkbox">Book Finished</label>
+                <input type="checkbox"
+                id = "checkbox"
+                name= "finished-book"
+                value = "true">
+            </section>
+            
+            <button class="add-book">Add Book</button>
+            <button type = "button" class = "cancel">Cancel</button>
+        </form>
+    </dialog> -->
+    
+    <button id="new-book-btn">New Book</button>
+    <form id="new-book-form" style = "display: none;">
+    <label for="title"> Title </label>
+    <input type = "text" id = "title">
+    <label for="author"> Author </label>
+    <input type = "text" id = "author">
+    <label for="pages"> Pages </label>
+    <input type = "text" id = "pages">
+    <label for="read"> Read </label>
+    <input type = "checkbox" id = "read">
+    <input type = "submit" value = "Add Book">
+    </form>
+
+    <div id="library"></div>
+    <script src = "script.js"></script>
+
+
+</body>
+</html>
